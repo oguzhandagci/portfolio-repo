@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0; }
+
+.wrapper {
+    margin: 15px 15px 15px 15px;
+    width: 1000px; }
+
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+ul {
+    margin-left: 6px; }
+
+ul li {
+list-style: none;
+display: inline-block;
+line-height: 100px; }
+
+ul li a {
+display: block;
+text-decoration: none;
+font-size: 14px;
+font-family: arial;
+color: #1e1e1e;
+padding: 0 20px; }
+
+ul li a:hover {
+color: red; }
+
+.projects_paragraph{
+    text-align: center;
+    padding: 20px;
+}
+
+.projects_list{
+    display:grid;
+}
+
+.projects_list li a:hover{
+color: blue;
+}
+
+body {
+    background-color: #eee ; }
+
+.img-rockn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 350px;
+    background-image: url(../project-outline/images/RocknRoll.jpeg);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center top; }
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-rockn:hover {
+    background-size: 100%; }
+
+h1 {
+    padding: 10px;
+    text-align: center;
+    }
+
+h2 {
+    padding: 10px;
+    text-align: center; }
+
+ol li{
+    padding: 10px;
+    text-align: center;
+}
+
+h3 {
+    padding: 10px;
+    text-align: center; }
+
+.wrapper2 {
+    margin: 0 auto 0 60px;
+    width: 1000px; }
+
+.body_title2 {
+    padding: 10px;
+    text-align: center; }
+
+.info_paragraph {
+    font-family: sans-serif;
+    font-size: 17px;
+    padding: 10px;
+    text-align: center;
+}
+
+.first_paraghraph{
+    font-family: sans-serif;
+    font-size: 17px;
+    padding: 10px;
+    text-align: center;
+}
+
+.info_paragraph a {
+    text-decoration: none;
+    color: inherit; }
+
+.last_paragraph {
+        font-family: sans-serif;
+        font-size: 17px;
+        padding: 10px;
+        text-align: center; }
+
+ol li a{
+    text-decoration: none;
+    color: inherit; }
+
+ol li{
+    text-align: center;
+}
+
+.first_container{
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.second_container{
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.second_paraghraph{
+text-align: center;
+margin: 20px;
+}
+
+.container{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
